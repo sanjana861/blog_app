@@ -1,6 +1,6 @@
 # Task 2 – Basic CRUD Application
 
-This repository contains **Task 2** of my project work, where I built a **Basic CRUD (Create, Read, Update, Delete) Application** using **PHP, MySQL, and XAMPP**.  
+This repository contains **Task 2** of my Apexplanet Internship, where I built a **Basic CRUD (Create, Read, Update, Delete) Application** using **PHP, MySQL, and XAMPP**.  
 The main objective of this task was to understand and implement the fundamental operations that every dynamic web application needs.
 
 ---
