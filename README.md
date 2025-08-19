@@ -25,3 +25,31 @@ The main objective of this task was to understand and implement the fundamental 
 ---
 
 ## 📂 File Structure
+basic_crud_app/
+│
+├── db.php # Database connection
+├── index.php # List all posts (Read)
+├── create.php # Form to create a new post
+├── edit.php # Form to edit an existing post
+├── delete.php # Handle deleting a post
+└── README.md # Project documentation
+
+## ⚡ How to Run the Project
+1. Install **XAMPP** (or any PHP + MySQL setup).  
+2. Clone or download this repository into your `htdocs` folder.  
+3. Create a new database (e.g., `crud_app`) in **phpMyAdmin**.  
+4. Run the following SQL query to create the table:
+   ```sql
+   CREATE TABLE posts (
+       id INT AUTO_INCREMENT PRIMARY KEY,
+       title VARCHAR(255) NOT NULL,
+       content TEXT NOT NULL
+   );
+Update db.php with your MySQL username and password if needed.
+
+Start Apache & MySQL in XAMPP.
+
+## Open your browser and go to:
+
+http://localhost/basic_crud_app/
+
